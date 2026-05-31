@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1780122334",
+        "python_version": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\GAMING PC\\.pyenv\\pyenv-win\\versions\\3.10.5\\Scripts\\mlagents-learn C:\\Users\\GAMING PC\\Desktop\\AI-avanced-jeuVideo\\Tp3_JEU_Lassana\\Assets\\SceneJeu\\config.yaml --run-id=escape03",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1780122384"
+    },
+    "total": 49.29170929999964,
+    "count": 1,
+    "self": 0.00605830000131391,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09871080000448273,
+            "count": 1,
+            "self": 0.09871080000448273
+        },
+        "TrainerController.start_learning": {
+            "total": 49.18694019999384,
+            "count": 1,
+            "self": 0.00040810000064084306,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 49.186522299998614,
+                    "count": 1,
+                    "self": 49.186522299998614
+                },
+                "trainer_threads": {
+                    "total": 6.999980541877449e-07,
+                    "count": 1,
+                    "self": 6.999980541877449e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.099996532313526e-06,
+                    "count": 1,
+                    "self": 9.099996532313526e-06
+                }
+            }
+        }
+    }
+}
